@@ -1,0 +1,43 @@
+$color-palette-1: #9EB3C2;
+$color-palette-2: #1C7293;
+$color-palette-3: #065A82;
+$color-palette-4: #1B3B6F;
+$color-palette-5: #21295C;
+// bg-gradient
+$grad-color-from: rgb(158, 179, 194);
+$grad-color-to: rgb(86, 127, 143);
+// element-gradient
+$glassy-strong-from: rgba(255,255,255,0.8);
+$glassy-strong-to: rgba(255,255,255,0.3);
+$glassy-weak-from: rgba(255,255,255,0.7);
+$glassy-weak-to: rgba(255,255,255,0.3);
+$glassy-mid: rgba(255,255,255,0.5);
+// text & shadows
+$shadow: rgba(122,122,122,0.2);
+$text-dark: rgba(16, 104, 138, 0.8);
+$text-light: rgb(40, 120, 152);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'index';
+@import 'about';
+@import 'projects';
+
+@media screen and (max-width: 1340px) {
+    header {
+        nav {
+            h1 {
+                font-size: 2rem;
+            }
+            ul {
+                li {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
